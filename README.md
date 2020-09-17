@@ -6,4 +6,4 @@ This page is based on a profile card free template that you can found here: [Coo
 
 Feel free to use this and customize your own links page 🤘🏼.
 
-[Click me and watch this in action 🏼👋🏼](https://links.cristopherps.com/).
+[Click me and watch this in action 👋🏼](https://links.cristopherps.com/).
