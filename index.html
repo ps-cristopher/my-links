@@ -28,7 +28,7 @@
 
 		<!-- Pin to top right corner -->
 		<div class="absolute top-0 right-0 h-12 w-18 p-4">
-			<button class="js-change-theme focus:outline-none">
+			<button class="js-change-theme focus:outline-none" aria-label="Cambiar modo oscuro">
 				<i class="fas fa-sun text-yellow-500 text-3xl"></i>
 			</button>
 		</div>
@@ -46,7 +46,7 @@
 				</div>
 
 				<h1 id="logo" class="text-3xl font-bold pt-8 lg:pt-0 pb-4 text-center">
-					<img src="http://cristopherps.com/wp-content/uploads/2019/01/cropped-Logo-CristopherPS-white-1.png"
+					<img alt="Logo Cristopher PS" src="http://cristopherps.com/wp-content/uploads/2019/01/cropped-Logo-CristopherPS-white-1.png"
 						class="rounded-none lg:rounded-lg lg:rounded-l-none lg:block">
 				</h1>
 
@@ -54,7 +54,7 @@
 
 				<div class="mt-6 pb-5 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
 					<a class="link" href="https://facebook.com/ps.cristopher" target="blank"
-						data-tippy-content="@ps.cristopher">
+						data-tippy-content="@ps.cristopher" aria-label="Facebook">
 						<svg class="h-6 fill-current text-blue-700 icon-yellow-ps" role="img" viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
 							<title>Facebook</title>
@@ -63,7 +63,7 @@
 						</svg>
 					</a>
 					<a class="link" href="https://twitter.com/ps_cristopher" target="blank"
-						data-tippy-content="@ps_cristopher">
+						data-tippy-content="@ps_cristopher" aria-label="Twitter">
 						<svg class="h-6 fill-current text-blue-700 icon-yellow-ps" role="img" viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
 							<title>Twitter</title>
@@ -72,7 +72,7 @@
 						</svg>
 					</a>
 					<a class="link" href="https://github.com/ps-cristopher" target="blank"
-						data-tippy-content="@ps-cristopher">
+						data-tippy-content="@ps-cristopher" aria-label="GitHub">
 						<svg class="h-6 fill-current text-blue-700 icon-yellow-ps" role="img" viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
 							<title>GitHub</title>
@@ -81,7 +81,7 @@
 						</svg>
 					</a>
 					<a class="link" href="https://instagram.com/ps_cristopher" target="blank"
-						data-tippy-content="@ps_cristopher">
+						data-tippy-content="@ps_cristopher" aria-label="Instagram">
 						<svg class="h-6 fill-current text-blue-700 icon-yellow-ps" role="img" viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
 							<title>Instagram</title>
@@ -90,7 +90,7 @@
 						</svg>
 					</a>
 					<a class="link" href="https://youtube.com/c/CristopherPS" target="blank"
-						data-tippy-content="@CristopherPS">
+						data-tippy-content="@CristopherPS" aria-label="YouTube">
 						<svg class="h-6 fill-current text-blue-700 icon-yellow-ps" role="img"
 							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 							<title>YouTube</title>
@@ -99,7 +99,7 @@
 						</svg>
 					</a>
 					<a class="link" href="https://www.linkedin.com/in/ps-cristopher" target="blank"
-						data-tippy-content="@ps-cristopher">
+						data-tippy-content="@ps-cristopher" aria-label="Linkedin">
 						<i class="fab fa-linkedin text-2xl fill-current text-blue-700 icon-yellow-ps"></i>
 					</a>
 				</div>
@@ -115,36 +115,36 @@
 				</p>
 
 				<div class="pt-6 pb-4">
-					<button onclick="goToLink()"
+					<button onclick="goToLink()" aria-label="Ir a sitio web"
 						class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fas fa-globe"></i>
 						Sitio Web
 					</button>
-					<button onclick="goToLink('https://cristopherps.com/tienes-que-aprender-javascript/')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
+					<button onclick="goToLink('https://cristopherps.com/tienes-que-aprender-javascript/')" aria-label="Último artículo de mi Blog" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fas fa-pen"></i>
 						Último artículo de mi Blog ✍🏼
 					</button>
-					<button onclick="goToLink('https://www.youtube.com/watch?v=irr0mUH356U&t=11s&ab_channel=%7B%7BCristopher_PS%7D%7D')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
+					<button onclick="goToLink('https://www.youtube.com/watch?v=irr0mUH356U&t=11s&ab_channel=%7B%7BCristopher_PS%7D%7D')" aria-label="Último video" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fab fa-youtube"></i>
 						Último video 🎥
 					</button>
-					<button onclick="goToLink('https://youtu.be/1LiQ_cG0FgM')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
+					<button onclick="goToLink('https://youtu.be/1LiQ_cG0FgM')" aria-label="Último live de ProgramArte" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fab fa-youtube"></i>
 						Último live de ProgramArte 🔴
 					</button>
-					<button onclick="goToLink('https://anchor.fm/ps-cristopher')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
+					<button onclick="goToLink('https://anchor.fm/ps-cristopher')" aria-label="Podcast de ProgramArte" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fas fa-podcast"></i>
 						Podcast de ProgramArte 🎙
 					</button>
-					<button onclick="goToLink('https://youtu.be/PBg6tYj_FBQ')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
+					<button onclick="goToLink('https://youtu.be/PBg6tYj_FBQ')" aria-label="Último live de Undefined Devs" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fab fa-youtube"></i>
 						Último live de Undefined Devs 🔴
 					</button>
-					<button onclick="goToLink('https://discord.gg/UKPbV3j')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
+					<button onclick="goToLink('https://discord.gg/UKPbV3j')" aria-label="Únete a los Undefined Devs" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 mb-3 rounded-lg">
 						<i class="fab fa-discord"></i>
 						Únete a los Undefined Devs 👨🏻‍💻
 					</button>
-					<button onclick="goToLink('https://covid19mexico.cristopherps.com')" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 rounded-lg">
+					<button onclick="goToLink('https://covid19mexico.cristopherps.com')" aria-label="PWA Covid 19 México" class="w-4/5 bg-blue-700 bg-yellow-ps text-white font-bold py-2 px-4 rounded-lg">
 						<i class="fas fa-globe"></i>
 						PWA Covid 19 México 🇲🇽
 					</button>
@@ -156,7 +156,7 @@
 		<!--Img Col-->
 		<div class="w-full lg:w-2/5">
 			<!-- Big profile image for side bar (desktop) -->
-			<img src="./assets/perfil_sm.png" class="rounded-none lg:rounded-lg lg:rounded-l-none shadow-2xl hidden lg:block">
+			<img alt="Perfil Cristopher PS" src="./assets/perfil_sm.png" class="rounded-none lg:rounded-lg lg:rounded-l-none shadow-2xl hidden lg:block">
 		</div>
 
 	</div>
