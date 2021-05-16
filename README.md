@@ -8,6 +8,14 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
 
+<p align='center'>
+  <img src="https://img.shields.io/github/languages/top/ps-cristopher/my-links?style=social"/>
+  <img src="https://img.shields.io/github/stars/ps-cristopher/my-links?style=social"/>
+  <a href="https://twitter.com/ps_cristopher" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/ps_cristopher?label=Follow%20Me&style=social"/>
+  </a>
+</p>
+
 ## Description
 
 This is a landing page created using Tailwind, HTML and some JS to share my social media and other awesome links 😎.
