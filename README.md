@@ -24,7 +24,5 @@ This page is based on a profile card free template that you can found here: [Coo
 
 Feel free to use this and customize your own links page 🤘🏼.
 
-[Click me and watch this in action 👋🏼](https://links.cristopherps.com/).
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/) License © 2021 [Cristopher PS](https://github.com/ps-cristopher)
